@@ -29,6 +29,10 @@ const App = () => (
             <Route path="/legal/minecraft/privacy" element={<ComingSoon />} />
             <Route path="/legal/hytale/terms" element={<ComingSoon />} />
             <Route path="/legal/hytale/privacy" element={<ComingSoon />} />
+            <Route path="/legal/doughmination-modding/terms" element={<ComingSoon />} />
+            <Route path="/legal/doughmination-modding/privacy" element={<ComingSoon />} />
+            <Route path="/legal/doughmination-plural/terms" element={<ComingSoon />} />
+            <Route path="/legal/doughmination-plural/privacy" element={<ComingSoon />} />
             <Route path="/minecraft/crafts" element={<Crafts />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
