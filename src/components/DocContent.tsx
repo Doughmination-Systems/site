@@ -973,9 +973,7 @@ export const DocContent = ({ game, loader, mod }: DocContentProps) => {
 
       <div className="mt-12 pt-8 border-t border-border">
         <p className="text-sm text-muted-foreground">
-          Last updated: February 2026 • 
-          <a href="#" className="text-primary hover:underline ml-1">Edit this page</a>
-        </p>
+          Last updated: February 2026</p>
       </div>
     </main>
   );
