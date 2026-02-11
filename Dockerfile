@@ -24,7 +24,7 @@ COPY . .
 RUN npm run build
 
 # Expose port
-EXPOSE 8001
+EXPOSE 8002
 
 # Add healthcheck
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
